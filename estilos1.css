@@ -1,0 +1,482 @@
+:root{
+  --red-color: #DDC07F
+
+}
+
+html, body{
+  font-family: Helvetica;
+  padding:0px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+nav{
+  background-color: #DDC07F;
+  display: flex;
+  padding: 10px;
+  padding-right: 50px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display:  flex;
+
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: black;
+
+}
+
+body{
+background-color: #fafad2;
+
+}
+
+div.card{
+margin:10px;
+border: 5px solid #ccc;
+float: left;
+width:auto;
+
+}
+div.card img{
+width:100%;
+height:auto;
+
+}
+.Albums2{
+ font-family: Helvetica;
+ font-size: 40px;
+ font-weight: bold;
+ text-align: center;
+ color: white;
+ background-color: #ddc07f;
+ outline: 0;
+ border:none;
+ width:100%;
+ margin: 0 auto;
+ max-width: 300px;
+
+
+}
+.Albums3{
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #ddc07f;
+  outline: 0;
+  border:none;
+  width:100%;
+  margin: 0 auto;
+  max-width: 600px;
+
+
+
+}
+
+.bloque_Uno{
+  background-image: url("../images/twicefront.png");
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  background-size: auto;
+  background-position: center;
+
+}
+
+.main_section{
+  padding: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+  justify-content: center;
+  display: flex;
+
+}
+
+.main_section button{
+  border: 1;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: transparent ;
+  width: 100%;
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+
+
+
+}
+
+.content_1{
+background-image: url("../images/bck_beneficios.png");
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.titulobeneficios{
+background-color: #000;
+display: flex;
+padding-top: 10px;
+font-size:20px;
+color: white;
+font-weight: bold;
+text-align: center;
+justify-content: center;
+}
+
+
+
+.arriba{
+  display: flex;
+
+}
+
+.contenedor_beneficios{
+
+}
+
+}
+.contendor2{
+justify-content: center;
+display: flex;
+
+}
+
+
+.card {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: arial;
+}
+.titulo2{
+justify-content: center;
+padding-top: 30px;
+display: flex;
+padding-bottom: 20px;
+
+}
+.menciones{
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #ddc07f;
+  outline: 0;
+  border:none;
+  width:100%;
+  margin: 0 auto;
+  max-width: 400px;
+
+
+
+}
+.division{
+  background-image: url("../images/bck_beneficios.png");
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.titulofaqcontenedor{
+  padding-top: 30px;
+justify-content: center;
+display: flex;
+
+
+}
+
+
+
+.titulofaq{
+font-family: Helvetica;
+font-size: 18px;
+color: white;
+background-color: #ddc07f;
+outline:0;
+border:none;
+width: 50%;
+margin: 0 auto;
+max-width: 500px;
+text-align: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.preguntas{
+color: #8A8787;
+
+
+}
+.seccionpreguntas{
+  padding: 20px;
+  font-family: Helvetica;
+  font-size: 13px;
+  text-align: center;
+  background-color: #FFFFFF;
+  outline:0;
+  border:none;
+  width: 50%;
+  margin: auto;
+  max-width: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.main_button{
+background-color:#DDC07F;
+width: 100px;
+padding: 10px;
+font-size: 12px;
+color: white;
+border: 0px;
+}
+
+.img_social{
+  padding: 10px;
+
+}
+.poop{
+
+  justify-content: center;
+  display: flex;
+  padding-bottom: 92px;
+}
+.margen{
+padding-left: 15px;
+
+}
+.margen2{
+
+padding-left:  15px;
+
+}
+.margen3{
+padding-left: 15px;
+
+}
+.margen4{
+
+padding-left:15px;
+
+}
+.margen5{
+
+padding-left:15px;
+
+}
+
+.content_img{
+  background-color: #DDC07F;
+  padding: 20px;
+
+
+}
+
+
+.option{
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.logos{
+padding-right: 500px;
+padding: 20px;
+}
+
+.modulo_pago{
+  background-color: white;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pago_imagen{
+  max-width: 730px;
+  margin: auto;
+
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 35ppx;
+  border-radius: 2px;
+  border: 1px solid #e6e5e9;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+padding-top: 10px;
+
+}
+.img_brand{
+padding-left:12px;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+/* Columns */
+.left-column {
+  width: 65%;
+  position: relative;
+}
+
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+
+
+/* Left Column */
+.left-column img {
+  width: 75%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.left-column img.active {
+  opacity: 1;
+}
+
+
+.product-description {
+  border-bottom: 1px solid #E1E8EE;
+  margin-bottom: 20px;
+}
+.product-description span {
+  font-size: 12px;
+  color: #358ED7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: #43484D;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: #43474D;
+  margin-right: 20px;
+}
+
+.cart-btn {
+  display: inline-block;
+  background-color: #7DC855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: #64af3d;
+}
+
+/* Responsive */
+@media (max-width: 940px) {
+  .container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .left-column img {
+    width: 300px;
+    right: 0;
+    top: -65px;
+    left: initial;
+  }
+}
+
+@media (max-width: 535px) {
+  .left-column img {
+    width: 220px;
+    top: -85px;
+  }
+}
+
+
+footer{
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: #DDC07F;
+  padding: 0px;
+  color: white;
+
+}

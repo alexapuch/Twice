@@ -1,0 +1,151 @@
+.fadeIn{
+  animation-duration: 4s;
+animation-fill-mode: both;
+animation-name: fadeIn;
+-webkit-animation-duration: 4s;
+-webkit-animation-fill-mode: both;
+-webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from{
+
+      opacity: 0;
+
+    }
+    to{
+      opacity: 1;
+
+    }
+}
+
+.fadeInDown{
+  animation-duration: 1s;
+animation-fill-mode: both;
+animation-name: fadeInDown;
+-webkit-animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+-webkit-animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from{
+
+      opacity: 0;
+      transform: translate3d(0, -80%, 0);
+      -webkit-transform: translate3d(0, -80%, 0);
+
+
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0, 0%, 0);
+      -webkit-transform: translate3d(0, 0%, 0);
+
+
+    }
+}
+
+.fadeInUp{
+  animation-duration: 1s;
+animation-fill-mode: both;
+animation-name: fadeInUp;
+-webkit-animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+-webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from{
+
+      opacity: 0;
+      transform: translate3d(0, 25%, 0);
+      -webkit-transform: translate3d(0, 25%, 0);
+
+
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0, 0%, 0);
+      -webkit-transform: translate3d(0, 0%, 0);
+
+
+    }
+}
+
+.slide {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes slide {
+  from{
+    opacity: 0;
+    transform: translate3d(0px, 0%, -50%);
+    -webkit-transform: translate3d(0%, 0%, -50%);
+  }
+  to{
+    opacity: 0;
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transform: translate3d(0%, 0%, 0);
+
+  }
+}
+
+.popout {
+    animation: popout 2s ease;
+    -webkit-animation: popout 2s ease;
+}
+@keyframes popout {
+    from{
+      transform: scale(0);
+      transform: scale(.2);
+      -webkit-transform: scale(0);
+      -webkit-transform: scale(.2);
+    }
+    to{
+      transform: scale(1);
+      -webkit-transform: scale(1);
+    }
+}
+
+.crescendo {
+
+  animation: crescendo 0.5s alternate infinite ease-in;
+  -webkit-animation: crescendo 1s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  from{
+    transform: scale(.6);
+    transform: scale(.7);
+    -webkit-transform: scale(.6);
+    -webkit-transform: scale(.7);
+  }
+  to{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+
+  }
+}
+
+.element {
+  animation: pulse 5s infinite;
+  -webkit-animation: pulse 5s infinite;
+}
+
+@keyframes element {
+
+  from {
+    background-color: #001F3F;
+    -webkit-background-color: #001F3F;
+  }
+  to{
+    background-color: #FF4136;
+    -webkit-background-color: #001F3F;
+  }
+}
